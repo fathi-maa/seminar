@@ -8,7 +8,7 @@ Steps to implement the excercise:
 * step1 :
 	rails new myapp
 
-*step2:  config/routes.rb
+* step2:  config/routes.rb
 	Rails.application.routes.draw do
   		root "home#index"  # Sets the homepage route
 	end
