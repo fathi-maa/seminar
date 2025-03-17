@@ -1,24 +1,35 @@
-# README
+# RUBY ON RAILS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+	Create a new Rails application and explore its directory structure. Modify the config/routes.rb file to add a route for the home#index action .
+	Create a basic HomeController and a corresponding view.
 
-Things you may want to cover:
+Steps to implement the excercise:
 
-* Ruby version
+* step1 :
+	rails new myapp
 
-* System dependencies
+*step2:  config/routes.rb
+	Rails.application.routes.draw do
+  		root "home#index"  # Sets the homepage route
+	end
 
-* Configuration
+* step 3: Creating HomeContoller
+	rails generate controller Home
 
-* Database creation
+* step 4: app/controllers/home_controller.rb
+	class HomeController < ApplicationController
+  		def index
+  		end
+	end
 
-* Database initialization
+* step 5: creating a file 'index.html.erb' inside app/views/home/ 
+	touch app/views/home/index.html.erb
 
-* How to run the test suite
+* step 6:
+	writing the html code here for the index page
 
-* Services (job queues, cache servers, search engines, etc.)
+* step 7:running the rails application
+	rails server
 
-* Deployment instructions
 
-* ...
+  
