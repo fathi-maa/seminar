@@ -1,7 +1,7 @@
 # RUBY ON RAILS
 
 	Create a new Rails application and explore its directory structure.    
-        Modify the config/routes.rb file to add a route for the home#index action .
+Modify the config/routes.rb file to add a route for the home#index action .
 	Create a basic HomeController and a corresponding view.
 
 Steps to implement the excercise:
